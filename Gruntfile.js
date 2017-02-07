@@ -31,7 +31,8 @@ module.exports = function(grunt) {
           { expand: true, cwd: 'bower_components/font-awesome/fonts/', src: '**', dest: 'dist/assets/fonts/' },
 
           { expand: true, cwd: 'bower_components/lato/font/', src: 'lato-bold/*', dest: 'dist/assets/fonts/' },
-          { expand: true, cwd: 'bower_components/bower-pt-sans/fonts/pt_sans', src: '**/*', dest: 'dist/assets/fonts/pt_sans' },
+          { expand: true, cwd: 'bower_components/bower-pt-sans/fonts/pt_sans', src: '**/*', dest: 'dist/assets/fonts/pt_sans/' },
+          { expand: true, cwd: 'bower_components/grandhotel-googlefont/', src: 'GrandHotel-Regular.ttf', dest: 'dist/assets/fonts/grandhotel/' },
 
           { expand: true, flatten: true, src: 'bower_components/jquery/dist/jquery.min.js', dest: 'dist/assets/js/' }
         ]

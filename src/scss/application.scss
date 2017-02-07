@@ -19,6 +19,11 @@ $fa-font-path: '../assets/fonts';
 
 @import "pt_sans.scss";
 
+@font-face {
+  font-family: 'Grand Hotel';
+  src: url('../assets/fonts/grandhotel/GrandHotel-Regular.ttf') format('truetype');
+}
+
 /* Global */
 body {
   font-family: 'pt_sans', sans-serif;
@@ -37,10 +42,18 @@ header {
 }
 
 .brand-landing {
-  color: white;
-
-  font-family: 'Grand Hotel';
+  font-family: 'Grand Hotel', serif;
   font-size: 2.5em;
+
+  color: white;
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .heading {
