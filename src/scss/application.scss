@@ -39,6 +39,8 @@ header {
   background-size: cover;
   background-image: url('../assets/images/landing.jpg');
   background-attachment: fixed;
+
+  border-bottom: $border-size solid $color-primary;
 }
 
 .brand-landing {
@@ -134,6 +136,8 @@ header {
   background-size: cover;
   background-image: url('../assets/images/landing.jpg');
   background-position: center;
+
+  border-top: $border-size solid $color-primary;
 
   a {
     color: white;
